@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nft</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet" />
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Secular One", sans-serif;
+  }
+
+  #container {
+    border: 1px solid;
+    height: 635px;
+    background-color: #03031d;
+    position: relative;
+  }
+
+  #card {
+    background-color: #0b0b67;
+    border-radius: 10px;
+    width: 300px;
+    height: 530px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  #card #img1 {
+    position: absolute;
+    margin: 7rem auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .6s ease;
+  }
+
+  #card #img1:hover {
+    opacity: 2;
+    cursor: pointer;
+  }
+
+  #card #img2 {
+    display: block;
+    width: 260px;
+    height: 250px;
+    margin: 15px auto;
+    /* position: relative; */
+    border-radius: 9px;
+  }
+
+  /* #card #next::after{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    box-shadow: inset 5px 5px 5px 5px red;
+   
+  } */
+
+
+  h4 {
+    color: white;
+    font-size: 25px;
+    margin: 0px 20px;
+    font-weight: 300;
+    transition: all .5s ease;
+  }
+
+  h4:hover {
+    color: rgb(0, 255, 248);
+    cursor: pointer;
+  }
+
+  #para1 {
+    color: rgb(139, 172, 217);
+    margin: 10px 20px;
+    font-size: 15px;
+  }
+
+  #para2 {
+    display: inline;
+    color: rgb(0, 255, 248);
+    position: relative;
+    top: -2px;
+  }
+
+  #para3 {
+    display: inline;
+    color: rgb(139, 172, 217);
+  }
+
+  #two {
+    margin: 20px;
+  }
+
+  #svg2 {
+    margin: -3px 1px;
+  }
+
+  #inner2 {
+    display: inline;
+    position: relative;
+    left: 82px;
+    top: -1px;
+  }
+
+  hr {
+    width: 83%;
+    margin: 0px 26px;
+    background-color: rgb(139, 172, 217);
+  }
+
+  #pics {
+    margin: 0px 2px;
+  }
+
+  #pics img {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 20px;
+    display: inline;
+  }
+
+  #pics p {
+    display: inline;
+    position: relative;
+    color: rgb(139, 172, 217);
+    top: -35px;
+    left: -15px;
+  }
+
+  span {
+    color: white;
+  }
+</style>
+
+<body>
+  <div id="container">
+    <div id="card">
+      <img id="img1" src="/imagesformentor/icon-view.svg" alt="">
+      <div id="next">
+        <img id="img2" src="imagesformentor/image-equilibrium.jpg" alt="" />
+      </div>
+      <h4>Equlibrium #3429</h4>
+      <p id="para1">
+        Our equlibrium collection promotes<br />
+        balance and calm
+      </p>
+      <div id="two">
+        <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+            fill="#00FFF8" />
+        </svg>
+        <p id="para2">0.041ETH</p>
+
+        <div id="inner2">
+          <svg id="svg2" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+              fill="#8BACD9" />
+          </svg>
+          <p id="para3">3 days left</p>
+        </div>
+      </div>
+      <hr />
+      <div id="pics">
+        <img src="imagesformentor/image-avatar.png" alt="" />
+        <p>creation of <span> Asin Honore</span></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
